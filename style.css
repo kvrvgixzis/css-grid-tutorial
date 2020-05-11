@@ -84,6 +84,12 @@ h3, p { margin-bottom: 10px; }
 }
 
 @media screen and (max-width: 600px) {
-    .content { grid-template-columns: 1fr; }
+    .content { 
+        grid-column: 1/4;
+        grid-template-columns: 1fr; 
+    }
+    .ads {
+        grid-column: 1/4;
+    }
     .content > h1 { grid-column: 1/2; }
 }
